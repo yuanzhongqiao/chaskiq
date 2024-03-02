@@ -1,132 +1,117 @@
-
-![image](https://user-images.githubusercontent.com/11976/81771025-eaefe780-94af-11ea-881b-ad7910536fee.png)
-
-# Chaskiq 
-## Free & Source Available Messaging Platform for Marketing, Support & Sales
-### The front line of your customer service.
-
-[![Push Docker Image](https://github.com/chaskiq/chaskiq/actions/workflows/dockerimage.yml/badge.svg)](https://github.com/chaskiq/chaskiq/actions/workflows/dockerimage.yml)
-
-[![CI](https://github.com/chaskiq/chaskiq/actions/workflows/ruby.yml/badge.svg)](https://github.com/chaskiq/chaskiq/actions/workflows/ruby.yml)
-
-<a href="https://hub.docker.com/r/chaskiq/chaskiq">
-  <img src="https://img.shields.io/docker/pulls/chaskiq/chaskiq.svg" alt="CI">
+<div class="Box-sc-g0xbh4-0 bJMeLZ js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/11976/81771025-eaefe780-94af-11ea-881b-ad7910536fee.png"><img src="https://user-images.githubusercontent.com/11976/81771025-eaefe780-94af-11ea-881b-ad7910536fee.png" alt="图像" style="max-width: 100%;"></a></p>
+<div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">恰斯基克</font></font></h1><a id="user-content-chaskiq" class="anchor-element" aria-label="永久链接：查斯基克" href="#chaskiq"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用于营销、支持和销售的免费且可用的消息平台</font></font></h2><a id="user-content-free--source-available-messaging-platform-for-marketing-support--sales" class="anchor-element" aria-label="永久链接：用于营销、支持和销售的免费且可用的消息平台" href="#free--source-available-messaging-platform-for-marketing-support--sales"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您的客户服务的第一线。</font></font></h3><a id="user-content-the-front-line-of-your-customer-service" class="anchor-element" aria-label="永久链接：客户服务的第一线。" href="#the-front-line-of-your-customer-service"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><a href="https://github.com/chaskiq/chaskiq/actions/workflows/dockerimage.yml"><img src="https://github.com/chaskiq/chaskiq/actions/workflows/dockerimage.yml/badge.svg" alt="推送 Docker 镜像" style="max-width: 100%;"></a></p>
+<p dir="auto"><a href="https://github.com/chaskiq/chaskiq/actions/workflows/ruby.yml"><img src="https://github.com/chaskiq/chaskiq/actions/workflows/ruby.yml/badge.svg" alt="CI" style="max-width: 100%;"></a></p>
+<a href="https://hub.docker.com/r/chaskiq/chaskiq" rel="nofollow">
+  <img src="https://camo.githubusercontent.com/6eaaeca87e260fd907fb2deb12c2a75ecead7176f6ad6c2a2494020c86451f9b/68747470733a2f2f696d672e736869656c64732e696f2f646f636b65722f70756c6c732f636861736b69712f636861736b69712e737667" alt="CI" data-canonical-src="https://img.shields.io/docker/pulls/chaskiq/chaskiq.svg" style="max-width: 100%;">
 </a>
-
-[![Crowdin](https://badges.crowdin.net/e/41a6bbb31a5d79361a6264cb9ceac533/localized.svg)](https://chaskiq.crowdin.com/chaskiq)
-
-<br/>
-
-<a href="https://heroku.com/deploy?template=https://github.com/chaskiq/chaskiq/tree/main" alt="Deploy to Heroku">
-    <img alt="Deploy" src="https://www.herokucdn.com/deploy/button.svg"/>
+<p dir="auto"><a href="https://chaskiq.crowdin.com/chaskiq" rel="nofollow"><img src="https://camo.githubusercontent.com/e807230112d6d9c001b1c9b4de8a977a868285e5c19cf5e8210b25bcab25d5cf/68747470733a2f2f6261646765732e63726f7764696e2e6e65742f652f34316136626262333161356437393336316136323634636239636561633533332f6c6f63616c697a65642e737667" alt="克罗丁" data-canonical-src="https://badges.crowdin.net/e/41a6bbb31a5d79361a6264cb9ceac533/localized.svg" style="max-width: 100%;"></a></p>
+<br>
+<a href="https://heroku.com/deploy?template=https://github.com/chaskiq/chaskiq/tree/main" alt="部署到 Heroku" rel="nofollow">
+    <img alt="部署" src="https://camo.githubusercontent.com/df5706ea91f4c49deb42ca31a753d025e2078d24e2490cf88ffc7ed84a38e48e/68747470733a2f2f7777772e6865726f6b7563646e2e636f6d2f6465706c6f792f627574746f6e2e737667" data-canonical-src="https://www.herokucdn.com/deploy/button.svg" style="max-width: 100%;">
 </a>
-
-
-
-----
-
-## Main features:
-
-<img align="right" width="400" height="auto" src="https://user-images.githubusercontent.com/11976/81771031-f17e5f00-94af-11ea-9e2b-4df8128dfa6d.png">
-
-- Customer Segment Filters with custom attributes support
-- Web Messenger embed
-- Agent's conversation routing
-- Text chat with customizable content blocks support
-- **Video Calls** !
-- Triggerable conversational bots
-- Mailing campaigns
-- Onboarding tours
-- API integrations - Whatsapp / Twitter DM / Slack / Calendly / Zoom and more!
-- CRM integration - Pipedrive supported
-- Webhooks
-- Help Center system with multilanguage support
-- API support - consumable via GrapqhQL with Oauth authorization
-- Quick replies (as canned responses)
-- Configurable Data protection (GDPR) consent
-- Audits on Access and records changes
-- Composable Roles access/permissions system
-- Pluggable Reports
-
-And many features to come
-
-To learn more about the philosophy and goals of the project, [visit **chaskiq.io**](https://www.chaskiq.io).
-
-
-### Embeddable WebChat:
-
-<img align="right" width="300" height="auto" src="https://user-images.githubusercontent.com/11976/81771091-14107800-94b0-11ea-98a8-a714b0290f66.png">
-
-- A powerful text editor for the chat based in Dante2 Wysiwyg.
-- Animated Gifs.
-- Embeddable Videos from Youtube, Vimeo.
-- Embedable webpages via Oembed protocol.
-- Video Recorder.
-- Video Calls via RTC protocol.
-- Third party apps like Calendly & Zoom.
-- Colorized Code via Prism.js.
-
 <hr>
-
-![image](https://user-images.githubusercontent.com/11976/81775079-095ae080-94ba-11ea-9992-bce7f34e3ff0.png)
-
-## Dashboard panel
-
-<img align="right" width="300" height="auto" src="https://user-images.githubusercontent.com/11976/81775425-d5cc8600-94ba-11ea-90e2-bac4c8fa8d16.png">
-
-We have designed the dashboard with an extensible & pluggable architecture, you can implement your own dashboard blocks to customize it with external data sources.
-
-Also it can display the visit activity and the conversation performance like reply rate times & response averages.
-
-
-## Help Center
-
-Chaskiq has a powerful article content creator which can serve as a Help Center / Knowledge base system. it can live on a custom domain or in the same webchat for your customer auto assistance.
-
-![image](https://user-images.githubusercontent.com/11976/81776113-33150700-94bc-11ea-84c7-86a694c13885.png)
-
-
-## Development
-
-To get your environment setup, follow the community setup guide for your operating system.
-
-1. If you're on macOS, try the [macOS development guide](https://dev.chaskiq.io/getting-started/installation-on-mac-for-development).
-1. If you're on Ubuntu, try the [Ubuntu development guide](https://dev.chaskiq.io/en/articles/install-chaskiq-on-ubuntu-for-development).
-1. If you're on Windows, try the [Windows 10 development guide](https://dev.chaskiq.io/en/articles/install-discourse-on-windows-10-for-development).
-1. If you want to develop on Docker [Docker Dev Guide](https://dev.chaskiq.io/en/articles/docker-for-development)
-
-
-Before you get started, ensure you have the following minimum versions: [Ruby 2.6+](https://www.ruby-lang.org/en/downloads/), [PostgreSQL 10+](https://www.postgresql.org/download/), [Redis 2.6+](https://redis.io/download).
-
-## Setting up Chaskiq
-
-If you want to set up a Chaskiq for production use, see our [**Chaskiq Install Guide**](https://dev.chaskiq.io/production-configuration).
-
-## Requirements
-
-Chaskiq is built for the *next* 10 years of the Internet, so our requirements are high:
-
-| Browsers              | Tablets      | Phones       |
-| --------------------- | ------------ | ------------ |
-| Safari 10+            | iPad 4+      | iOS 10+      |
-| Google Chrome 57+     | Android 4.4+ | Android 4.4+ |
-| Internet Explorer 11+ |              |              |
-| Firefox 52+           |              |              |
-
-## Built With
-
-- [Ruby on Rails](https://github.com/rails/rails) &mdash; Our back end API is a Rails app. It responds to requests RESTfully in JSON.
-- [React.js](https://reactjs.org/) &mdash; Our front end is an React.js app that communicates with the Rails Graphql API.
-- [PostgreSQL](https://www.postgresql.org/) &mdash; Our main data store is in Postgres.
-- [Redis](https://redis.io/) &mdash; We use Redis as a cache and for transient data.
-
-Plus *lots* of Ruby Gems, a complete list of which is at [/main/Gemfile](https://github.com/chaskiq/chaskiq/blob/main/Gemfile).
-
-## The Chaskiq Team
-
-For a complete list of the many individuals that contributed to the design and implementation of Chaskiq, please refer to [GitHub's list of contributors](https://github.com/chaskiq/chaskiq/contributors).
-
-### Commercial license
-
-The commercial license is designed to for you to use Chaskiq in commercial products and applications, without the provisions of the AGPL-3.0-or-later + commons clause. With the commercial license, your code is kept proprietary, to yourself. See the Chaskiq Commercial License at [chaskiq.io](https://chaskiq.io/commercial-license)
-
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">主要特点：</font></font></h2><a id="user-content-main-features" class="anchor-element" aria-label="固定链接： 主要特点：" href="#main-features"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/11976/81771031-f17e5f00-94af-11ea-9e2b-4df8128dfa6d.png"><img align="right" width="400" height="auto" src="https://user-images.githubusercontent.com/11976/81771031-f17e5f00-94af-11ea-9e2b-4df8128dfa6d.png" style="max-width: 100%;"></a></p>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">具有自定义属性支持的客户群过滤器</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">网络信使嵌入</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">代理的对话路由</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">支持可自定义内容块的文本聊天</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">视频通话</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">！</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可触发的对话机器人</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">邮寄活动</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">入职参观</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">API 集成 - Whatsapp / Twitter DM / Slack / Calendly / Zoom 等等！</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CRM 集成 - 支持 Pipedrive</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">网络钩子</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">多语言支持的帮助中心系统</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">API 支持 - 可通过具有 Oauth 授权的 GrapqhQL 使用</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">快速回复（作为预设回复）</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可配置数据保护 (GDPR) 同意</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">访问和记录变更审核</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可组合角色访问/权限系统</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可插入报告</font></font></li>
+</ul>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">还有许多即将推出的功能</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">要了解有关该项目的理念和目标的更多信息，</font></font><a href="https://www.chaskiq.io" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请访问</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">chaskiq.io</font></font></strong></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可嵌入的网络聊天：</font></font></h3><a id="user-content-embeddable-webchat" class="anchor-element" aria-label="永久链接：嵌入式网络聊天：" href="#embeddable-webchat"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/11976/81771091-14107800-94b0-11ea-98a8-a714b0290f66.png"><img align="right" width="300" height="auto" src="https://user-images.githubusercontent.com/11976/81771091-14107800-94b0-11ea-98a8-a714b0290f66.png" style="max-width: 100%;"></a></p>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">基于 Dante2 Wysiwyg 的强大聊天文本编辑器。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">GIF 动画。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">来自 Youtube、Vimeo 的可嵌入视频。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">通过 Oembed 协议嵌入网页。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">录像机。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">通过 RTC 协议进行视频通话。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">第三方应用程序，例如 Calendly 和 Zoom。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">通过 Prism.js 着色代码。</font></font></li>
+</ul>
+<hr>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/11976/81775079-095ae080-94ba-11ea-9992-bce7f34e3ff0.png"><img src="https://user-images.githubusercontent.com/11976/81775079-095ae080-94ba-11ea-9992-bce7f34e3ff0.png" alt="图像" style="max-width: 100%;"></a></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">仪表板</font></font></h2><a id="user-content-dashboard-panel" class="anchor-element" aria-label="永久链接：仪表板" href="#dashboard-panel"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/11976/81775425-d5cc8600-94ba-11ea-90e2-bac4c8fa8d16.png"><img align="right" width="300" height="auto" src="https://user-images.githubusercontent.com/11976/81775425-d5cc8600-94ba-11ea-90e2-bac4c8fa8d16.png" style="max-width: 100%;"></a></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们设计了具有可扩展和可插入架构的仪表板，您可以实现自己的仪表板块，以使用外部数据源对其进行自定义。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它还可以显示访问活动和对话表现，例如回复率时间和回复平均值。</font></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">帮助中心</font></font></h2><a id="user-content-help-center" class="anchor-element" aria-label="永久链接：帮助中心" href="#help-center"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Chaskiq 拥有强大的文章内容创建器，可以用作帮助中心/知识库系统。</font><font style="vertical-align: inherit;">它可以存在于自定义域或同一网络聊天中，为您的客户提供自动帮助。</font></font></p>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/11976/81776113-33150700-94bc-11ea-84c7-86a694c13885.png"><img src="https://user-images.githubusercontent.com/11976/81776113-33150700-94bc-11ea-84c7-86a694c13885.png" alt="图像" style="max-width: 100%;"></a></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">发展</font></font></h2><a id="user-content-development" class="anchor-element" aria-label="永久链接： 发展" href="#development"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">要进行环境设置，请遵循适用于您的操作系统的社区设置指南。</font></font></p>
+<ol dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您使用的是 macOS，请尝试</font></font><a href="https://dev.chaskiq.io/getting-started/installation-on-mac-for-development" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">macOS 开发指南</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您使用的是 Ubuntu，请尝试</font></font><a href="https://dev.chaskiq.io/en/articles/install-chaskiq-on-ubuntu-for-development" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Ubuntu 开发指南</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您使用的是 Windows，请尝试</font></font><a href="https://dev.chaskiq.io/en/articles/install-discourse-on-windows-10-for-development" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Windows 10 开发指南</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果你想在 Docker 上进行开发</font></font><a href="https://dev.chaskiq.io/en/articles/docker-for-development" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Docker 开发指南</font></font></a></li>
+</ol>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在开始之前，请确保您拥有以下最低版本：</font></font><a href="https://www.ruby-lang.org/en/downloads/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Ruby 2.6+</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">、</font></font><a href="https://www.postgresql.org/download/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PostgreSQL 10+</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">、</font></font><a href="https://redis.io/download" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Redis 2.6+</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">设置 Chaskiq</font></font></h2><a id="user-content-setting-up-chaskiq" class="anchor-element" aria-label="永久链接：设置 Chaskiq" href="#setting-up-chaskiq"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您想设置 Chaskiq 供生产使用，请参阅我们的</font></font><a href="https://dev.chaskiq.io/production-configuration" rel="nofollow"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Chaskiq 安装指南</font></font></strong></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">要求</font></font></h2><a id="user-content-requirements" class="anchor-element" aria-label="永久链接：要求" href="#requirements"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Chaskiq 是为</font><font style="vertical-align: inherit;">互联网的</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">未来10 年而构建的，因此我们的要求很高：</font></font></em><font style="vertical-align: inherit;"></font></p>
+<table>
+<thead>
+<tr>
+<th><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">浏览器</font></font></th>
+<th><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">平板电脑</font></font></th>
+<th><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">电话</font></font></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Safari 10+</font></font></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">iPad 4+</font></font></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">iOS 10+</font></font></td>
+</tr>
+<tr>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">谷歌浏览器 57+</font></font></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安卓4.4+</font></font></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安卓4.4+</font></font></td>
+</tr>
+<tr>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">互联网浏览器 11+</font></font></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">火狐浏览器 52+</font></font></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">内置</font></font></h2><a id="user-content-built-with" class="anchor-element" aria-label="永久链接： 构建" href="#built-with"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><a href="https://github.com/rails/rails"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Ruby on Rails</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> — 我们的后端 API 是一个 Rails 应用程序。</font><font style="vertical-align: inherit;">它以 JSON 方式以 REST方式响应请求。</font></font></li>
+<li><a href="https://reactjs.org/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">React.js</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> — 我们的前端是一个与 Rails Graphql API 通信的 React.js 应用程序。</font></font></li>
+<li><a href="https://www.postgresql.org/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PostgreSQL——</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们的主要数据存储在 Postgres 中。</font></font></li>
+<li><a href="https://redis.io/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Redis</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> — 我们使用 Redis 作为缓存和临时数据。</font></font></li>
+</ul>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">还有</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">很多</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Ruby Gems，完整列表位于</font></font><a href="https://github.com/chaskiq/chaskiq/blob/main/Gemfile"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">/main/Gemfile</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">查斯基克团队</font></font></h2><a id="user-content-the-chaskiq-team" class="anchor-element" aria-label="永久链接：Chaskiq 团队" href="#the-chaskiq-team"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有关为 Chaskiq 的设计和实现做出贡献的众多个人的完整列表，请参阅</font></font><a href="https://github.com/chaskiq/chaskiq/contributors"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">GitHub 的贡献者列表</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">商业许可</font></font></h3><a id="user-content-commercial-license" class="anchor-element" aria-label="永久链接：商业许可证" href="#commercial-license"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">商业许可证旨在让您在商业产品和应用程序中使用 Chaskiq，无需 AGPL-3.0 或更高版本 + 公共条款的规定。</font><font style="vertical-align: inherit;">有了商业许可，您的代码就属于您自己专有。</font><a href="https://chaskiq.io/commercial-license" rel="nofollow"><font style="vertical-align: inherit;">请访问chaskiq.io</font></a><font style="vertical-align: inherit;">查看 Chaskiq 商业许可证</font></font><a href="https://chaskiq.io/commercial-license" rel="nofollow"><font style="vertical-align: inherit;"></font></a></p>
+</article></div>
